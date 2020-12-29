@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
-            android:background=" "
+            android:background="@drawable/swoosh_toggle"
             android:text="@string/womens"
             android:textColor="@android:color/white"
             android:textOff="@string/womens"
