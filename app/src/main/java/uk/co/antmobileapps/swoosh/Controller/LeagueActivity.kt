@@ -1,10 +1,12 @@
-package uk.co.antmobileapps.swoosh
+package uk.co.antmobileapps.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_league.*
+import uk.co.antmobileapps.swoosh.EXTRA_LEAGUE
+import uk.co.antmobileapps.swoosh.R
 
 class LeagueActivity : BaseActivity() {
     

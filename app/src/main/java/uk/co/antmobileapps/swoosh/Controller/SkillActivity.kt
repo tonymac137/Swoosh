@@ -1,8 +1,8 @@
-package uk.co.antmobileapps.swoosh
+package uk.co.antmobileapps.swoosh.Controller
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import uk.co.antmobileapps.swoosh.EXTRA_LEAGUE
+import uk.co.antmobileapps.swoosh.R
 
 class SkillActivity : BaseActivity() {
 
