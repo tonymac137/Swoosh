@@ -56,24 +56,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <ToggleButton
-            android:id="@+id/toggleButton4"
+            android:id="@+id/btnBeginnerSkill"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onBeginnerClick"
             android:text="@string/biginner"
             android:textColor="@android:color/white"
             android:textOff="@string/biginner"
             android:textOn="@string/biginner" />
 
         <ToggleButton
-            android:id="@+id/toggleButton5"
+            android:id="@+id/btnBallerSkill"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_weight="1"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onBallerClick"
             android:text="@string/baller"
             android:textColor="@android:color/white"
             android:textOff="@string/baller"
@@ -81,7 +83,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnFinishSkill"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -89,6 +91,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
+        android:onClick="onSkillFinishedClicked"
         android:text="@string/finish"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
