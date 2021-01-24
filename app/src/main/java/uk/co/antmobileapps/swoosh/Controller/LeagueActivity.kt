@@ -40,6 +40,7 @@ class LeagueActivity : BaseActivity() {
 
     }
 
+
     fun leagueNextClicked(view: View) {
         if (selectedLeague != "") {
             val skillActivity = Intent(this, SkillActivity::class.java)
